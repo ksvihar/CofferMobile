@@ -1,0 +1,429 @@
+
+/* MAIN_STYLE */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 32px;
+	color: #ff6633;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	text-align: center;
+}
+
+h1.headings {
+	padding: 40px 0 0 0;
+}
+
+h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	color: #555555;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+a {
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color: #333333;
+}
+
+a:hover {
+	color: #ff6633;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+/* TOP-MENU */
+
+#top-menu {
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+}
+
+#logo {
+	float: left;
+	padding: 20px 0;
+}
+
+#top-menu ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#top-menu li {
+	float: left;
+	padding: 34px 15px;
+	margin: 0;
+}
+
+/* DEMO-SECTION */
+
+#demo-section {
+	width: 100%;
+	height: 530px;
+	background-color: #333333;
+	margin: 0;
+	padding: 0;
+}
+
+#demo-content {
+	float: left;
+	height: 330px;
+	margin: 0;
+	padding: 100px 0;
+}
+
+#video {
+	float: left;
+	background-color: #444444;
+	position: relative;
+}
+
+#demo-text {
+	margin: 15px;
+	position: relative;
+	left:20px;
+}
+
+#demo-text p {
+	color: #ffffff;
+	text-align: justify;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#demo-text h1 {
+	text-align: justify;
+}
+
+#demo-text a {
+	background-color: #333333;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: white;
+	padding: 15px;
+	font-size: 13px;
+	width: 120px;
+	float: left;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: 0 10px 0 0;
+}
+
+#demo-text a:hover {
+	background-color: #ff6633;
+	border-color: #ff6633;
+}
+
+
+/* HOW IT WORKS SECTION */
+
+#howitworks-section {
+	width: 100%;
+	height: 700px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+}
+
+#howitworks-section h2 {
+	padding: 40px 30px;
+	float: left;
+}
+
+figure {
+	padding: 0;
+}
+
+#image-bottom {
+	bottom: 0;
+	width: 960px;
+	position: absolute;
+	margin: 0 0 -15px 0;
+}
+
+#image-bottom img {
+	padding: 0 40px 0;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+    -o-transition: .2s;
+
+}
+
+#image-bottom img:hover {
+	padding: 0 40px 0;
+	margin: 0 0 10px 0;
+}
+
+/* FEATURES SECTION */
+
+#features-section {
+	width: 100%;
+	height: 850px;
+	background-color: #f7f7f1;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+}
+
+#features-container {
+	margin: 0 auto;
+}
+
+.features-box {
+	width: 330px;
+	float: left;
+	padding: 40px 75px;
+}
+
+#features-section img {
+	padding: 10px 40px 10px;
+}
+
+#features-section h2 {
+	padding: 10px 40px 10px;
+}
+
+.para {
+	height: 130px;
+}
+
+/* PRICING SECTION */
+
+#pricing-section {
+	width: 100%;
+	height: 960px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.pricing-buttons {
+	width: 345px;
+	margin: 0 auto;
+}
+
+#pricing-section a {
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #333333;
+	padding: 15px;
+	font-size: 13px;
+	width: 120px;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	margin: 20px 10px;
+}
+
+#pricing-section a:hover {
+	background-color: #ff6633;
+	border-color: #ff6633;
+	color: #ffffff;
+}
+
+.tablecenter {
+	width: 795px;
+	margin: 0 auto;
+}
+
+
+#tablepack table {
+	margin-top: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	float: left;
+	padding: 0 20px;
+}
+
+#tablepack tr,td {
+	color: #333333;
+	background-color: #f6f8f0;
+	vertical-align: text-bottom;
+	width: 180px;
+	padding: 20px 20px 20px 20px;
+	border-collapse: collapse;
+}
+
+#tablepack th {
+	color: #ff6633;
+	font-size: 24px;
+	background-color: #333333;
+	vertical-align: text-bottom;
+	width: 180px;
+	text-align: center;
+	padding: 30px 20px 30px 20px;
+	border-collapse: collapse;
+}
+
+/* CONTACT SECTION */
+
+#contact-section {
+	width: 100%;
+	height: 720px;
+	background-color: #333333;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#maintable {
+	margin: 0, auto;
+}
+
+#maintable tr td {
+	width: 440px;
+	margin: 0;
+	vertical-align: top;
+	background: none;
+}
+
+.contactform {
+    width: 420px;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contactform label {
+    margin: 0px 0px 10px;
+    display: block;
+}
+.contactform label>span {
+    float: left;
+    width: 70px;
+    text-align: right;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.contactform input[type="text"], .contactform input[type="email"], .contactform textarea {
+    color: #ffffff;
+    height: 24px;
+	margin: 5px 0px 0px 5px;
+    padding: 10px;
+	width: 70%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    border: none;
+    background-color: #666666;
+}
+
+.contactform input:focus {
+	background-color: #777777;
+}
+
+.contactform textarea {
+    height: 120px;
+}
+
+.contactform textarea:focus {
+	background-color :#777777;
+}
+
+.contactform .button {
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 13px;
+    background: #333333;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    color: #ffffff;
+}
+
+.contactform .button:hover {
+    background: #ff6633;
+    border-style: solid;
+	border-width: 1.5px;
+	border-color: #ff6633;
+}
+
+#mapbox {
+	padding: 20px 80px 0 0;
+	float: left;
+}
+
+#maptext {
+	margin-top: 30px;
+}
+
+#maptext p {
+	color: #ffffff;
+	text-align: left;
+	line-height: 1.8;
+}
+
+/* Footer */
+
+footer {
+	background-color: #464646;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+footer ul li {
+    margin: 0;
+    padding: 18px 20px 15px;
+	float: left;
+}
+
+footer ul li a {
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #ff6633;
+}

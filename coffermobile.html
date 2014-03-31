@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>CofferMobile</title>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="coffermobile.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="coffermobile.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+	</script>
+
+	<script>
+		function initialize()
+		{
+		var mapProp = {
+		  center:new google.maps.LatLng(17.4372,78.3444),
+		  zoom:15,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+		var map=new google.maps.Map(document.getElementById("googleMap")
+		  ,mapProp);
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+</head>
+
+<body>
+
+	<header>
+		<nav id="top-menu">
+			<div class="container">
+				<img src="logo.png" id="logo">
+				<ul>
+					<li><a href="#demo-section">Demo</a></li>
+					<li><a href="#howitworks-section">How it Works</a></li>
+					<li><a href="#features-section">Features</a></li>
+					<li><a href="#pricing-section">Pricing</a></li>
+					<li><a href="#contact-section">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+<div class="clear"></div>
+
+	<section id="demo-section">
+		<div class="container">
+			<div id="demo-content">
+				<video id="video" width="530" height="330" controls>
+					<source src="" type="video/ogg">
+	  				<source src="" type="video/mp4">
+	 				<object data="" width="530" height="330">
+	  				<embed width="530" height="330" src="">
+	  				</object>
+				</video>
+				<div id="demo-text">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut metus luctus, tincidunt odio id, volutpat orci. Morbi interdum justo ut egestas dapibus. Nullam tempus ipsum at sapien adipiscing, eget pretium arcu vulputate. Aenean in adipiscing magna.</p>
+					<a href="#howitworks-section">HOW IT WORKS</a>
+					<a href="#features-section">FEATURES</a>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+	<section id="howitworks-section">
+		<div class="container">
+			<h1 class="headings">How it Works</h1>
+			<p>The process is really simple, takes less than a minute</p>
+			<h2>Choose CofferMobile Card Scan</h2>
+			<h2>Hold the Card to Scan to get the details</h2>
+			<h2>Enter CVV to complete payment</h2>
+			<div align="center"><img src="bar.png"></div>
+			<figure id="image-bottom">
+				<img src="hand1.png">
+				<img src="hand2.png">
+				<img src="hand3.png">						
+			</figure>
+		</div>		
+	</section>
+
+	<section id="features-section">
+		<div class="container">
+			<h1 class="headings">Features</h1>
+			<p>Amazing features at work</p>
+			<div id="features-container">
+				<div class="features-box">
+					<img src="easy.png">
+					<h2>Easy</h2>
+					<p class="para">CofferMobile is a modern application that uses the latest technology to deliver a quick and secure service. CofferMobile makes it really easy to make payments. It is easier for both the customer and the retailer.</p>
+					<img src="clock.png">
+					<h2>Fast</h2>
+					<p class="para">CofferMobile is a modern application that uses the latest technology to deliver a quick and secure service.</p>
+				</div>
+				<div class="features-box">
+					<img src="lock.png">
+					<h2>Secure</h2>
+					<p class="para">CofferMobile is a modern application that uses the latest technology to deliver a quick and secure service.</p>
+					<img src="creditcard.png">
+					<h2>Contactless Payments</h2>
+					<p class="para">Contactless payments are easy to understand and use. It just a simple tap of your contactless debit or credit card against our reader. No hustle, no waiting.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="pricing-section">
+		<div class="container">
+			<h1 class="headings">Pricing</h1>
+			<p>We give you the best pricing</p>
+			<div class="pricing-buttons">
+				<a href="">SCAN ONLY</a>
+				<a href="">SCAN AND PAY</a>
+			</div>
+			<div class="clear"></div>
+			<div class="tablecenter">
+				<div id="tablepack">
+					<table>
+						<tr><th>Basic<br>$49/month</th></tr>
+						<tr><td>1000 Catalog Size</td></tr>
+						<tr><td>Unlimited Downloads<br>Unlimited Categories<br>Unlimited Push Notifications</td></tr>
+						<tr><td>Free Support and Maintenance</td></tr>
+						<tr><td>iOs and Andriod</td></tr>
+						<tr><td><a href="">SIGN UP</a></td></tr>		
+					</table>
+							
+					<table>
+						<tr><th style="padding:40px 20px 40px 20px">Standard<br>$149/month</th></tr>
+						<tr><td>5000 Catalog Size</td></tr>
+						<tr><td>Unlimited Downloads<br>Unlimited Categories<br>Unlimited Push Notifications</td></tr>
+						<tr><td>Free Support and Maintenance</td></tr>
+						<tr><td>iOs and Andriod</td></tr>
+						<tr><td><a href="">SIGN UP</a></td></tr>					
+					</table>
+
+					<table>
+						<tr><th>Enterprise<br>$249/month</th></tr>
+						<tr><td>Unlimited Catalog Size</td></tr>
+						<tr><td>Unlimited Downloads<br>Unlimited Categories<br>Unlimited Push Notifications</td></tr>
+						<tr><td>Free Support and Maintenance</td></tr>
+						<tr><td>iOs and Andriod</td></tr>	
+						<tr><td><a href="">SIGN UP</a></td></tr>			
+					</table>						
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact-section">
+		<div class="container">
+			<h1 class="headings" style="color:white; font-size:24px; font-weight:normal; padding-bottom:40px;">Leave us a note and we will get back to you as soon as we can.</h1>
+
+			<div id="maintable">
+				<table>
+					<tr>
+						<td>
+							<form action="" method="post" class="contactform" id="mainform">
+							    <label>
+							        <span>Name :</span>
+							        <input id="name" type="text" name="name" placeholder="Enter Full Name" />
+							    </label>
+							    
+								<label>
+							        <span>Company :</span>
+							        <input id="cname" type="text" name="cname" placeholder="Enter Company Name" />
+							    </label>
+
+							    <label>
+							        <span>Email :</span>
+							        <input id="email" type="email" name="email" placeholder="Enter Email Address" />
+							    </label>					       
+							</form>
+						</td>
+						<td>
+							<form action="" method="post" class="contactform">
+							    <label>
+							        <span>Message :</span>
+							        <textarea id="message" name="message" placeholder="Your Message to us" form="form1"></textarea>
+							    </label> 
+
+							    <label>
+							        <span>&nbsp;</span> 
+							        <input type="button" class="button" value="SEND" form="form1" > 
+							    </label>
+							</form>	
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="mapbox">
+				<div id="googleMap" style="width:600px;height:240px;"></div>
+			</div>
+			<div id="maptext">
+				<p><span style="font-size:24px; color: #ff6633">Reach us at:</span><br>
+					112, Floor 12<br>
+					Sri Ram Enclave, Sudaraiah Park,<br>
+					Gachibowli, Hyderabad, India<br>
+					+91 - 78753 27382<br>
+					+91 - 78240 43325<br>
+					hello@coffermobile.in
+				</p>
+			</div>
+		</div>	
+	</section>
+
+	<footer>
+		<div class="container">	
+			<ul>
+				<li><a href="">Demo</a></li>
+				<li><a href="">How it Works</a></li>
+				<li><a href="">Features</a></li>
+				<li><a href="">Pricing</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+			<a href="" style="float:right; margin-top:15px"><img src="social.png"></a>
+		</div>	
+	</footer>
+
+</body>
+</html>
